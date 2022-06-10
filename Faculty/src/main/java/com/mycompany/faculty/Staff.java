@@ -1,12 +1,5 @@
-
 package com.mycompany.faculty;
-
 import java.util.Objects;
-
-/**
- *
- * @author Morcos Shehata
- */
 public abstract class Staff extends Person implements FCI
 {   
     protected double salary;
@@ -27,10 +20,6 @@ public abstract class Staff extends Person implements FCI
         this.department = department;
         this.starting_year = starting_year;
     }
-
-
-    
-
     public int getStarting_year() {
         return starting_year;
     }
