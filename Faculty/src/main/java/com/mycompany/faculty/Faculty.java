@@ -506,12 +506,5 @@ public class Faculty {
             System.out.println("No students, yet!");
             return;
         }
-
-       // for (Students student : students) {
-        //    System.out.println(student);
-        //}
-        
     }
 }
-    
-
