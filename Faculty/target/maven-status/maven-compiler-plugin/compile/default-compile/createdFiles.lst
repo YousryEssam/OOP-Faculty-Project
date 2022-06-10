@@ -1,0 +1,7 @@
+com\mycompany\faculty\Faculty.class
+com\mycompany\faculty\Administrators.class
+com\mycompany\faculty\Students.class
+com\mycompany\faculty\Instructors.class
+com\mycompany\faculty\Technicians.class
+com\mycompany\faculty\Person.class
+com\mycompany\faculty\Workers.class
