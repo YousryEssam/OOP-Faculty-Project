@@ -1,24 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.faculty;
-
 import java.util.Objects;
-
-/**
- *
- * @author Morcos Shehata
- */
 public class Instructors extends Staff
 {
     private String Degree;
-
     public Instructors() {
     }
-
-    
-
     public Instructors(String Degree, double salary, String department, int starting_year, String name, int age, String nationality, String gender, String address, String gov_id) {
         super(salary, department, starting_year, name, age, nationality, gender, address, gov_id);
         this.Degree = Degree;
@@ -60,11 +46,5 @@ public class Instructors extends Staff
             return false;
         }
         return true;
-    }
-
-
-    
-    
-    
-    
+    }   
 }
